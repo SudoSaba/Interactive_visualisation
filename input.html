@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Interactive Visualisation - Example</title>
+</head>
+<body>
+    <script type="application/javascript">
+        // Calculate the perimeter of rectangle.
+
+        const promptMessage = "Please enter the lenght of side:";
+        var side_a = prompt (promptMessage);
+        var side_b = prompt (promptMessage);
+        var side_c = prompt (promptMessage);
+        var side_a = parseFloat(side_a);
+        var side_b = parseFloat(side_b);
+        var side_c = parseFloat(side_c);
+        const perimeter = (side_a + side_b) * 2;
+        const area = (side_a * side_b);
+        const volume = (side_a*side_b*side_c);
+        document.write(`The perimeter of cuboid with side lenght ${side_a} and ${side_b} is ${perimeter}<br>`);
+        document.write(`The area of cuboid with side lenght ${side_a} and ${side_b} is ${area}<br>`);
+        document.write(`The volume of cuboid with side lenght ${side_a}, ${side_b} and ${side_c} is ${volume}<br>`);
+
+    </script>
+</body>

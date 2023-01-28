@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Interactive Visualisation - Example</title>
+</head>
+<body>
+    <script type="application/javascript">
+
+
+    const promptMessage_1 = "Please enter your bill:";    
+    var bill = prompt (promptMessage_1);
+    var bill = parseFloat(bill);
+    const Gratuity = bill * (15/100);
+    const Total_bill = (bill + Gratuity);
+    document.write("<span style=\"color:black;font-size: 1em; font-family:Consolas, helvetica, sans-serif;\">CREOLE CUSINE AT CRAIG’S EATERY <br> <\/span>");
+    document.write(`--------------------------------------------------------------- <br>`);
+    document.write("<span style=\"color:black;font-size: 1em; font-family:Consolas, helvetica, sans-serif;\"> (`Bill &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp ${bill}<br>`) <\/span>");
+    document.write(`Gratuity &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${Gratuity}<br>`);    
+    document.write(`Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${Total_bill}<br>`);
+    document.write(`Thank you for your custom, please <br>`);
+    document.write(`Call again soon<br>`)
+
+    </script>
+</body>

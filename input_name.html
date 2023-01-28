@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>Interactive Visualisation - Example</title>
+</head>
+<body>
+    <script type="application/javascript">
+
+    const promptMessage_1 = "Please enter your name:";    
+    const promptMessage_2 = "Please enter your age:";
+    const promptMessage_3 = "Please enter your weight:";
+    var a = prompt (promptMessage_1);
+    var b = prompt (promptMessage_2);
+    var c = prompt (promptMessage_3);
+    //var a = parseFloat(a);
+    var b = parseFloat(b);
+    var c = parseFloat(c);
+    const age = b * 365 * 3600;
+    const weight = ((1/6) * c);
+    const Jupiter_weight = ((c/9.81)*24.79);
+    document.write(`My name is ${a} and my age in seconds is ${age}<br>`);
+    document.write(`My name is ${a} and my weight on moon is ${weight}<br>`);
+    document.write(`My name is ${a} and my weight on Jupiter is ${Jupiter_weight}<br>`);
+
+    </script>
+</body>
