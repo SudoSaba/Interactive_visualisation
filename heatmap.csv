@@ -1,4 +1,22 @@
-﻿Year,Schooling,0.19
+﻿Year,Year,1
+Year,Life expectancy ,0.17
+Year,Adult Mortality,-0.08
+Year,infant deaths,-0.04
+Year,Alcohol,-0.05
+Year,percentage expenditure,0.03
+Year,Hepatitis B,0.1
+Year,Measles ,-0.08
+Year, BMI ,0.11
+Year,under-five deaths ,-0.04
+Year,Polio,0.09
+Year,Total expenditure,0.09
+Year,Diphtheria ,0.13
+Year, HIV/AIDS,-0.14
+Year,GDP,0.1
+Year, thinness  1-19 years,-0.05
+Year, thinness 5-9 years,-0.05
+Year,Income composition of resources,0.24
+Year,Schooling,0.21
 Life expectancy ,Year,0.17
 Life expectancy ,Life expectancy ,1
 Life expectancy ,Adult Mortality,-0.69
