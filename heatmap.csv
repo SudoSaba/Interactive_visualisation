@@ -1,4 +1,5 @@
-﻿Year,Year,1
+﻿group,variable,value
+Year,Year,1
 Year,Life expectancy ,0.17
 Year,Adult Mortality,-0.08
 Year,infant deaths,-0.04
