@@ -5,7 +5,7 @@ Alcohol,percentage_expenditure,0.34
 Alcohol,Total_expenditure,0.3
 Alcohol,GDP,0.35
 Alcohol,Income_composition_of_resources,0.55
-Alcohol,Schooling,0.55
+Alcohol,schooling,0.55
 Alcohol,Population,0.46
 percentage_expenditure,Life_expectancy,0.38
 percentage_expenditure,Alcohol,0.34
@@ -13,7 +13,7 @@ percentage_expenditure,percentage_expenditure,1
 percentage_expenditure,Total_expenditure,0.17
 percentage_expenditure,GDP,0.9
 percentage_expenditure,Income_composition_of_resources,0.38
-percentage_expenditure,Schooling,0.39
+percentage_expenditure,schooling,0.39
 percentage_expenditure,Population,0.29
 Total_expenditure,Life_expectancy,0.22
 Total_expenditure,Alcohol,0.3
@@ -53,7 +53,7 @@ Life_expectancy,percentage_expenditure,0.42
 Life_expectancy,Total_expenditure,0.22
 Life_expectancy,GDP,0.45
 Life_expectancy,Income_composition_of_resources,0.85
-Life_expectancy,Schooling,0.76
+Life_expectancy,schooling,0.76
 Life_expectancy,Population,0.23
 Population,Life_expectancy,0.23
 Population,Alcohol,0.46
@@ -61,5 +61,5 @@ Population,percentage_expenditure,0.29
 Population,Total_expenditure,0.27
 Population,GDP,0.11
 Population,Income_composition_of_resources,0.48
-Population,Schooling,0.34
+Population,schooling,0.34
 Population,Population,1
